@@ -31,8 +31,7 @@ class Utils:
             datetime_format = '<'+datetime_format+'>'
         elif '(' in datetimestring:
             datetime_format = '('+datetime_format+')'
-        else:
-            return datetime_format
+        return datetime_format
 
 
 def guess_datetime_format(datetimestring: str) -> str:
